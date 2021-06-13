@@ -65,18 +65,20 @@ public class Puzzling{
 //        }
 
 //No5:
-
-//        int[] myArray;
-//        myArray = new int[10];
-//        for (int i = 0; i < 10; i++){
-//            Random r = new Random();
-//            int low = 55;
-//            int high = 100;
-//            myArray[i] = r.nextInt(high-low) + low;
-//        }
-//        Arrays.sort(myArray);
-//        System.out.println(myArray[0]);
-//        System.out.println(myArray[myArray.length -1]);
+       ArrayList<Integer> intArray = new ArrayList<Integer>();
+       int[] myArray;
+       myArray = new int[10];
+       for (int i = 0; i < 10; i++){
+           Random r = new Random();
+           int low = 55;
+           int high = 100;
+           myArray[i] = r.nextInt(high-low) + low;
+        intArray.add(myArray[i]);
+       }
+        Arrays.sort(myArray);
+        System.out.println(intArray);
+        System.out.println(myArray[0]);
+        System.out.println(myArray[myArray.length -1]);
 
 //No6:
 
