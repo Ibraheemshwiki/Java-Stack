@@ -1,0 +1,12 @@
+h1{
+	color : blue;
+	text-align : center;
+	
+}
+.links{
+	display : flex;
+	justify-content : space-evenly;
+}
+.time{
+	color : green;
+}
